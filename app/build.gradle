@@ -6,12 +6,12 @@ plugins {
 
 android {
     namespace 'com.cherry.doc'
-    compileSdk 33
+    compileSdk 34
 
     defaultConfig {
         applicationId "com.cherry.doc"
-        minSdk 24
-        targetSdk 33
+        minSdk 26
+        targetSdk 34
         versionCode 1
         versionName "1.0"
 
@@ -55,5 +55,4 @@ dependencies {
     implementation("io.coil-kt:coil:1.4.0")
 
     implementation 'com.github.Victor2018:easypermissions:v1.1.0'
-
 }
